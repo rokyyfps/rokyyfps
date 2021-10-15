@@ -1,0 +1,45 @@
+.main {
+    position: absolute;
+    width: 97%;
+    height: 700px;
+    top: 20px;
+}
+
+.l-rect {
+    position: relative;
+    width: 33%;
+    float: left;
+    text-align: center;
+    border-radius: 1%;
+    -webkit-box-shadow: 27px 18px 100px 0px rgba(34, 60, 80, 0.48);
+    -moz-box-shadow: 27px 18px 100px 0px rgba(34, 60, 80, 0.48);
+    box-shadow: 27px 18px 100px 0px rgba(34, 60, 80, 0.48);
+}
+
+.r-rect {
+    position: relative;
+    width: 65%;
+    float: right;
+    border-radius: 1%;
+    -webkit-box-shadow: 27px 18px 100px 0px rgba(34, 60, 80, 0.48);
+    -moz-box-shadow: 27px 18px 100px 0px rgba(34, 60, 80, 0.48);
+    box-shadow: 27px 18px 100px 0px rgba(34, 60, 80, 0.48);
+    height: 643px;
+}
+
+.button {
+    background: rgb(99, 172, 99);
+    height: 60px;
+    width: 200px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    margin-left: -100px;
+    display:inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}   
+
+.fix {
+    margin-left: 1%;
+}

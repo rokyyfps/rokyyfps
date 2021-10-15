@@ -1,0 +1,17 @@
+.red_text {
+    color: red;
+    background: green;
+    font-size: 20px;
+}
+
+/* body {
+    background: rgb(233, 224, 100);
+} */
+
+.blue_b {
+    color: rgb(0, 68, 255);
+}
+
+.light_blue {
+    color: lightblue;
+}
