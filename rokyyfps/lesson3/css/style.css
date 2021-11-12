@@ -1,0 +1,23 @@
+table {
+    border-collapse:collapse;
+}
+
+.head-cell {
+    border: 1px solid black;
+    padding: 20px;
+    background: rgb(139, 155, 2);
+}
+
+.cell {
+    border: 1px solid black;
+    padding: 20px;
+    background: lime;
+    transition: 10s;
+}
+
+.cell:hover {
+    font-size: 11px;
+    background: red;
+    color: lightblue;
+}
+

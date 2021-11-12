@@ -1,0 +1,35 @@
+h1 {
+    display: inline-block;
+    background: lime;
+    animation: move 3s infinite;
+    margin-top: 10%;
+    font-size: 200px;
+}
+
+@keyframes move {
+    10% {
+        color: tomato;
+        font-size: 300px;
+    }
+    20% {
+        color: violet;
+        font-size: 200px;
+    }
+    30% {
+        color: yellowgreen;
+        font-size: 300px;
+    }
+    40% {
+        color: turquoise;
+        font-size: 200px;
+    }
+    50% {
+        transform:translateX(400px) rotate(720deg);
+        color: lightslategray;
+        font-size: 100px;
+    }
+    70% {
+        transform: translateY(300px);
+        
+    }
+}

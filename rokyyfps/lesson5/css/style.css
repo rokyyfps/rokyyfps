@@ -1,0 +1,99 @@
+.main1 {
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+
+.red1 {
+    width: 99.999%;
+    height: 100px;
+    background: red;
+}
+
+.green1 {
+    width: 99.999%;
+    height: 100px;
+    background: green;
+}
+
+.blue1 {
+    width: 99.999%;
+    height: 100px;
+    background: blue;
+}
+
+.main2 {
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+
+.red2 {
+    width: 33.333%;
+    height: 100px;
+    background: red;
+    display: inline-block;
+}
+
+.green2 {
+    width: 33.333%;
+    height: 100px;
+    background: green;
+    display: inline-block;
+}
+
+.blue2 {
+    width: 33.333%;
+    height: 100px;
+    background: blue;
+    display: inline-block;
+}
+.yellow2 {
+    width: 99.999%;
+    height: 100px;
+    background: yellow;
+    
+}
+
+.gray2 {
+    width: 50%;
+    height: 100px;
+    background: gray;
+    display: inline-block;
+}
+
+.black2 {
+    width: 50%;
+    height: 100px;
+    background: #000;
+    display: inline-block;
+}
+
+.main3 {
+    position: relative;
+    background: rgb(95, 185, 95);
+}
+
+.txt1 {
+    display: inline-block;
+    background: red;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+.txt2 {
+    display: inline-block;
+    background: green;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+.txt3 {
+    display: inline-block;
+    background: blue;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}

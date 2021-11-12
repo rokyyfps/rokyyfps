@@ -1,0 +1,74 @@
+.japan {
+    display: block;
+    position: relative;
+    width: 250px;
+    height: 150px;
+    border: 1px solid gray;
+}
+
+.red_dot {
+    position: relative;
+    background: red;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 auto;
+    top: 41px;
+}
+
+.cont_logo {
+    box-sizing: border-box;
+    /* background: #000; */
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 10%;
+}
+
+.cont {
+    box-sizing: border-box;
+    position: relative;
+    background: #000;
+    width: 75%;
+    height: 75%;
+    margin: 0 auto;
+    top: 50px;
+    border-radius: 30%;
+    border: 30px solid #000;
+}
+
+.in_bord {
+    box-sizing: border-box;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 50%;
+    left: 50%;
+    margin-top: -125px;
+    margin-left: -125px;
+    border-radius: 30%;
+    border: 20px solid #fff;
+}
+
+.circle {
+    box-sizing: border-box;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 50%;
+    left: 50%;
+    margin-top: -60px;
+    margin-left: -60px;
+    border-radius: 50%;
+    border: 20px solid #fff;
+}
+
+.dot {
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 18px solid #fff;
+    float: right;
+    margin: 14px 14px 0 0;
+}
+
