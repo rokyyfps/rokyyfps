@@ -32,16 +32,18 @@ li{
     display: block;
     text-decoration: none;
     color: #000;
+    
 }
 
 .w-arrow::after{
     display: inline-block;
     content:">";
+    transition: 0.5s;
 }
 
 .w-arrow:hover::after{
     margin: 0 0 0 10px;
-    transition: 1s;
+    
 }   
 
 .anim-arrow{

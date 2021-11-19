@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: small;
+}
+
+h1{
+    font-size: large;
+}
+
+.header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    font-size: medium;
+}
+
+.g-cont{
+    margin: 10px;
+}
+
+.my-website{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    border: 5px solid black;
+    background: rgb(92, 92, 92);
+    color: azure;
+    margin-bottom: 10px;
+}
+
+.my-website h1{
+    display: inline-block;
+    margin: 10px;
+}
+
+.my-website a{
+    color: azure;
+}
+
+.my-website .links{
+    margin-right: 1%;
+}
+
+.cont{
+    display: flex;
+}
+
+.card{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 3px solid black;
+    width: 32%;
+    margin: 5px 0.3% 5px 0.3%;
+}
+
+.card h2{
+    padding: 7px 10px;
+    background: rgb(92, 92, 92);
+}
+
+.card p{
+    width: 90%;
+    display: inline-block;
+    margin: 5% 3% 5% 3%;
+    padding: 0;
+}
+
+.block1{
+    width: 49%;
+}
+
+.block1 .p{
+    padding: 10px 10px 10px 0;
+}
+
+.block3{
+    display: inline-block;
+    width: 49%;
+    box-sizing: border-box;
+    border: 3px solid black;
+    background: rgb(92, 92, 92);;
+}
+
+.block3 p{
+    margin: 10px 5px;
+}
+
+@media screen and (max-width: 768px){
+    .cont{
+        display: inline-block;
+    }
+    .block1{
+        width: 100%;
+    }
+    .block3{
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .my-website{
+        display: block;
+    }
+    .link1, .link2, .link3{
+        display: block;
+        margin: 2px 4px;
+        border-top: 1px solid azure;
+    }
+    /* .block2{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .card{
+        min-width: 100px;
+    } */
+    .block1{
+        width: 100%;
+    }
+    .card{
+        display: block;
+        width: 100%;
+    }
+}
+

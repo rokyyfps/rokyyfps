@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    font-family: sans-serif;
+    font-family: Trebuchet MS, sans-serif;
     text-decoration: none;
 }
 
@@ -11,11 +11,21 @@
 .cont1 {
     display: flex;
     flex-wrap: wrap;
-    
+    transition: 0.3s;
+    border-radius: 10px;
+    margin-top: 10px;
 }
 
-.g-cont{
-    margin: 5vh;
+.cont1:hover{
+    background: rgb(179, 205, 252);
+}
+
+.lesson:last-child{
+    margin: 2vh;
+}
+
+.g-cont1{
+    margin: 2vh 5vh 2vh 5vh;
 }
 
 .cont1 h2{
@@ -29,15 +39,22 @@ img {
 .lesson{
     display: flex;
     flex-direction: column;
-    width: 400px;
-    border-radius: 7px;
-    border: 1px solid #000;
+    width: 350px;
+    border-radius: 9px;
     margin: 2vh 0 0 2vh;
+    background: azure;
+    box-shadow: 0 0 10px rgba(17, 17, 17, 0.5);
+    transition: 0.3s;
+}
+
+.lesson:hover{
+    background: rgb(201, 253, 253);
 }
 
 .block1{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     margin-bottom: 15px;
 }
 
@@ -48,19 +65,31 @@ img {
 }   
 
 .fake-hr{
-    width: 350px;
+    width: 300px;
     height: 1px;
     background: gray;
     margin: 0 auto;
 }
 
 .view{
+    background: azure;;
     padding: 4px 20px 4px 20px;
     border: 2px solid rgb(111, 193, 221);
     border-radius: 7px;
     margin: 10px 0 20px 10px;
+    transition: 0.2s;
+}
+
+.view:hover{
+    background: rgb(99, 97, 245);
+    color: white;
+    border-color: transparent;
 }
 
 .lesson-card{
     margin: 0 10px 0 0;
+}
+
+.g-cont2{
+    margin: 2vh 5vh 2vh 5vh;
 }

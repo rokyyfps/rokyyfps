@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+ul{
+    width: 1000px;
+    list-style: none;
+    background: rgb(68, 68, 68);
+    
+}
+
+.menu-item{
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 20px;
+}
+
+.menu-item a{
+    color: azure;
+}
+
+.menu-item:nth-child(2)::after{
+    display: inline;
+    color: black;
+    content: "\271A";
+}
+
+.menu-item:nth-child(3)::after{
+    display: inline;
+    color: black;
+    content: "\271A";
+}
+
+.dorp1{
+    display: none;
+}
