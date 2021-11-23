@@ -1,0 +1,106 @@
+/* .row{
+    margin: 10px;
+}
+
+.col, .col-2, .col-3, .col-4, .col-6, .col-8{
+    box-sizing: border-box;
+    border: 1px solid #000;
+}
+
+.one{
+    margin: 5px;
+} */
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    margin-top: 10px;
+}
+
+img{
+    width: 90%;
+}
+
+.btn-warning{
+    border-radius: 50px;
+}
+
+.price{
+    background: #000;
+}
+
+.no-border{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rewiews{
+    color: grey;
+}
+
+.rewiews:hover{
+    color: grey;
+}
+
+.row1{
+    width: 100%;
+}
+
+.link{
+    color: grey;
+    float: right;
+}
+
+.yellow{
+    box-sizing: border-box;
+    padding: 2px;
+    border-radius: 50px;
+    background: orange;
+}
+
+.yellow1{
+    text-align: center;
+    box-sizing: border-box;
+    padding: 2px;
+    border-radius: 50px;
+    background: orange;
+}
+
+.tag{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 4px;
+    border-radius: 50px;
+    background: orange;
+}
+
+.posr{
+    position: relative;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.img, .img1{
+    width: 20px;
+    margin: 10px 10px 0 10px;
+}
+
+.img1{
+    float: right;
+
+}
+
+.container{
+    width: 20%;
+    display: inline-block;
+}
