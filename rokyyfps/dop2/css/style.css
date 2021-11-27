@@ -4,21 +4,73 @@
     border: none;
     font-family: sans-serif;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 .header{
     border-left: 5px solid rgb(97, 97, 97);
     padding-left: 10px;
+    margin: 5vh 30vh;
 }
 
 .map{
     width: 100%;
 }
 
-input{
-    box-sizing: border-box;
-    background: rgb(196, 196, 196);
-    border: 1px solid transparent;
-    border-radius: 5px;
+.cont{
+    margin: 0 30vh;
+    display: flex;
 }
 
+.cont1 h2, p{
+    width: 40vh;
+}
+
+.cont2{
+    position: relative;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    top: -35%;
+    z-index: 999;
+    padding: 30px;
+}
+
+.cont3{
+    position: relative;
+}
+
+input{
+    border: none;
+    border-radius: 5px;
+    background: rgb(202, 202, 202);
+}
+
+.row1{
+    display: flex;
+    justify-content: space-between;
+    width: 40vh;
+}
+
+.input-box{
+    width: 45%;
+}
+
+.row2{
+    display: flex;
+    width: 40vh;
+    margin: 20px 0 0 0;
+}
+
+.inp3{
+    height: 6rem;
+    width: 40vh;
+}
+
+.button{
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    color: azure;
+    background: rgb(77, 163, 60);
+    top: 20px;
+}
