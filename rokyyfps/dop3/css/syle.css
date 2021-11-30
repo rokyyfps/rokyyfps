@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cont{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.black-man{
+    width: 100px;
+}
+
+.g-cont .glow:hover > img:nth-child(2n){
+    display: none;
+}
