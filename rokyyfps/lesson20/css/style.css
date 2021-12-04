@@ -2,10 +2,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
     text-decoration: none;
     list-style: none;
-
+    font-family: 'Open Sans', sans-serif;
     transition: 0.3s;
 
 }
@@ -99,29 +98,32 @@
     margin: 0 auto;
 }
 
-.content-row1{
+.about-content-row-1{
     display: flex;
+    justify-content: space-around;
+    margin: 0 0 97px 0;
 }
 
-.content-section1{
+.about-content-section1{
     display: inline-block;
+    
     width: 57.130281690%;
 }
 
-.content-section2{
-    display: inline-block;
-    position: relative;
-    top: 0;
+.about-content-section2{
+    display: flex;
+    flex-direction: column;
     width: 39.87677%;
 }
 
-.content-section1 h1{
+.about-header{
     border-left: 11px solid #E1E6EA;
     padding: 0 0 0 14px;
     font-size: 36px;
+    margin: 79px 0 0 0;
 }
 
-.img-sectoin1{
+.about-img-sectoin{
     width: 61px;
     height: 61px;
     background: #C8CDD0;
@@ -131,35 +133,55 @@
     margin: 0 0 0 1px;
 }
 
-.img-row1{
+.about-img-row{
     display: flex;
 }
 
-.img-sectoin1 .facebook{
-    width: 13px;
-    height: 23px;
-    border-left: 1px solid #ffffff;
+.about-img-sectoin .facebook{
+    width: 22px;
+    height: 18px;
 }
 
-.img-sectoin1 .twitter{
+.about-img-sectoin .twitter{
     width: 13px;
     height: 23px;
 }
 
-.img-sectoin1 .google{
+.about-img-sectoin .google{
     width: 13px;
     height: 23px;
-    border-left: 1px solid #ffffff;
 }
 
-.img-sectoin1 .ball{
-    width: 13px;
-    height: 23px;
-    border-left: 1px solid #ffffff;
+.about-img-sectoin .ball{
+    width: 22px;
+    height: 22px;
 }
 
-.img-sectoin1 .save{
-    width: 13px;
-    height: 23px;
-    border-left: 1px solid #ffffff;
+.about-img-sectoin .be{
+    font-size: 17px;
+    width: 27px;
+    height: 17px;
+}
+
+.about-content-inner{
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+}
+
+.sq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background: #23B7A4;
+    font-size: 20px;
+    width: 51px;
+    height: 51px;
+}
+
+.sq-wrapper{
+    position: relative;
+    top: 6.5px;
+    margin: 0 10px 0 0;
 }

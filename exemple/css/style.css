@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+body
+{
+    display: flex;
+}
+
+h1{
+    display: inline;
+    /* width: 0; */
+}
+.sq
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #000;
+    width: 51px;
+    height: 51px;
+    /* margin: 50px auto; */
+}
+
+.number{
+    color: rgb(255, 255, 255);
+}
+
+/* 0 реакции флекса на на фиксированные размеры*/
