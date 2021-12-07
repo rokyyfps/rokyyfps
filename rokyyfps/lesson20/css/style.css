@@ -1,4 +1,5 @@
-*{
+*
+{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -6,16 +7,17 @@
     list-style: none;
     font-family: 'Open Sans', sans-serif;
     transition: 0.3s;
-
 }
 
-.underline{
+.underline
+{
     text-decoration: underline;
     position: relative;
     top: -0.13rem;
 }
 
-.header{
+.header
+{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -24,16 +26,19 @@
     color: azure;
 }
 
-.main_header{
+.main_header
+{
     font-size: 19px;
 }
 
-.header_nav{
+.header_nav
+{
     display: flex;
     font-size: 12px;
 }
 
-.list-item a{
+.list-item a
+{
     margin: 0 10px;
     padding: 8px 10px 7px 11px;
     border: 1px solid #1D2126;
@@ -42,20 +47,29 @@
     transition: 0.3s;
 }
 
-.list-item a:hover{
+.list-item a:hover
+{
     border: 1px solid #A4AEAD;
     color: #A4AEAD;
     border-radius: 5px;
 }
 
-.list-item a:active{
+.list-item a:active
+{
     color: #23B7A4;
     border: 1px solid #23B7A4;
     border-radius: 5px;
     transition: none;
 }
 
-.banner{
+
+
+
+
+
+
+.banner
+{
     color: #FFFFFF;
     background-image: url(../img/pic@1X.png);
     width: 100%;
@@ -64,21 +78,25 @@
     align-items: center;
 }
 
-.banner-cont{
+.banner-cont
+{
     display: inline-block;
     width: 740px;
     margin: 0 0 0 15%;
 }
 
-.bunner h1{
+.bunner h1
+{
     font-size: 26px;
 }
 
-.banner p{
+.banner p
+{
     font-size: 16px;
 }
 
-.button1{
+.button1
+{
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
     border-radius: 10px;
@@ -87,43 +105,49 @@
     font-size: 14px;
 }
 
-.button1:hover{
+.button1:hover
+{
     background: #23B7A4;
     border-color: #23B7A4;
     cursor: pointer;
 }
 
-.content-block{
+.content-block1
+{
     width: 1136px;
     margin: 0 auto;
 }
 
-.about-content-row-1{
+.about-content-row-1
+{
     display: flex;
     justify-content: space-around;
     margin: 0 0 97px 0;
 }
 
-.about-content-section1{
+.about-content-section1
+{
     display: inline-block;
-    
     width: 57.130281690%;
 }
 
-.about-content-section2{
+.about-content-section2
+{
     display: flex;
     flex-direction: column;
     width: 39.87677%;
 }
 
-.about-header{
+.about-header
+{
     border-left: 11px solid #E1E6EA;
     padding: 0 0 0 14px;
     font-size: 36px;
     margin: 79px 0 0 0;
 }
 
-.about-img-sectoin{
+.about-img-sectoin
+{
     width: 61px;
     height: 61px;
     background: #C8CDD0;
@@ -133,43 +157,51 @@
     margin: 0 0 0 1px;
 }
 
-.about-img-row{
+.about-img-row
+{
     display: flex;
 }
 
-.about-img-sectoin .facebook{
+.about-img-sectoin .facebook
+{
     width: 22px;
     height: 18px;
 }
 
-.about-img-sectoin .twitter{
+.about-img-sectoin .twitter
+{
     width: 13px;
     height: 23px;
 }
 
-.about-img-sectoin .google{
+.about-img-sectoin .google
+{
     width: 13px;
     height: 23px;
 }
 
-.about-img-sectoin .ball{
+.about-img-sectoin .ball
+{
     width: 22px;
     height: 22px;
 }
 
-.about-img-sectoin .be{
+.about-img-sectoin .be
+{
     font-size: 17px;
     width: 27px;
     height: 17px;
 }
 
-.about-content-inner{
+.about-content-inner
+{
     display: flex;
     justify-content: space-between;
     /* width: 100%; */
 }
 
-.sq{
+.sq
+{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -180,8 +212,201 @@
     height: 51px;
 }
 
-.sq-wrapper{
+.sq-wrapper
+{
     position: relative;
     top: 6.5px;
     margin: 0 10px 0 0;
+}
+
+
+
+
+
+
+
+
+.our-team-header
+{
+    margin: 85px 0 62px 0;
+}
+
+.content-block2
+{
+    width: 1144px;
+    margin: 0 auto;
+}
+
+.team-card
+{
+    position: relative;
+    width: 264px;
+    margin: 0 26px 0 0;
+}
+
+.team-img
+{
+    width: 264px;
+    height: 301px;
+    object-fit: cover;
+
+}
+
+.team-wrepper
+{
+    display: flex;
+    margin: 0 0 99px 0;
+}
+
+.team-text-wrepper
+{
+    display: inline;
+    background: #E1E6EA;
+    padding: 20px 0 20px 0;
+}
+
+.team-text-wrepper h4, p
+{
+    width: 100%;
+    position: relative;
+    top: -5px;
+}
+
+.team-text-wrepper h4
+{
+    background: #E1E6EA;
+    padding: 20px 20px 0 20px;
+}
+
+.team-text-wrepper p
+{
+    background: #E1E6EA;
+    padding: 9px 20px 20px 20px;
+    color: #8D8F92;
+}
+
+.team-icon-wrapper
+{
+    display: flex;
+    justify-content: center;
+    width: 264px;
+    height: 301px;
+    
+    position: absolute;
+}   
+
+.wrapper123:hover
+{
+    background: #ffffff;
+    opacity: 0.5;
+}
+
+.team-icon-wrapper:hover
+{
+    opacity: 1;
+}
+
+.team-icon-self-wrapper
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 51px;
+    height: 51px;
+    margin: 1px;
+    background: #4E5A62;
+    opacity: 1;
+}
+
+.team-icon-twitter
+{
+    width: 17px;
+    height: 14px;
+}
+
+.team-icon-facebook
+{
+    width: 10px;
+    height: 18px;
+}
+
+.team-icon-save
+{
+    width: 15px;
+    height: 16px;
+}
+
+
+
+
+
+.background-content3
+{
+    width: 100%;
+    background: #3A454D;
+}
+
+
+.content-block3 
+{
+    width: 1136px;
+    margin: 0 auto;
+}
+
+
+.fix
+{
+    width: 100%;
+    height: 80px;
+}
+
+.work
+{
+    color: #FFFFFF;
+    border-left: 11px solid #4E5A62;
+    padding: 0 0 0 14px;
+    margin: 0 0 62px 0;
+    font-size: 36px;
+}
+
+.work-image-cont
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 29px;
+
+}
+
+.work-img-wrapper
+{
+    position: relative;
+    
+}
+
+.work-img-wrapper:hover::after
+{
+    content: "PARTNERSHIP GUIDLINES";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0%;
+    bottom: 4px;
+    width: 100%;
+    height: 61px;
+    background: #292F36;
+    opacity: 0.8;
+}   
+
+/* .work-img-wrapper:hover::before
+{
+    content: "+";
+    position: absolute;
+    left: 49%;
+    bottom: 53%;
+} */
+
+.button2
+{
+    
 }
