@@ -239,8 +239,12 @@
 
 .team-card
 {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
     position: relative;
     width: 264px;
+    height: 376px;
     margin: 0 26px 0 0;
 }
 
@@ -249,7 +253,6 @@
     width: 264px;
     height: 301px;
     object-fit: cover;
-
 }
 
 .team-wrepper
@@ -260,9 +263,12 @@
 
 .team-text-wrepper
 {
-    display: inline;
+    display: inline-block;
+    width: 264px;
+    height: 75px;
     background: #E1E6EA;
-    padding: 20px 0 20px 0;
+    position: relative;
+    top: -5px;
 }
 
 .team-text-wrepper h4, p
@@ -274,48 +280,39 @@
 
 .team-text-wrepper h4
 {
-    background: #E1E6EA;
+    color: #292F36;
     padding: 20px 20px 0 20px;
 }
 
 .team-text-wrepper p
 {
-    background: #E1E6EA;
-    padding: 9px 20px 20px 20px;
+    padding: 9px 20px 16px 20px;
     color: #8D8F92;
 }
 
 .team-icon-wrapper
 {
+    position: absolute;
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 264px;
     height: 301px;
-    
-    position: absolute;
-}   
-
-.wrapper123:hover
-{
-    background: #ffffff;
-    opacity: 0.5;
-}
-
-.team-icon-wrapper:hover
-{
-    opacity: 1;
+    opacity: 0;
+    transition: 0.5s;
+    /* display: none; */
 }
 
 .team-icon-self-wrapper
 {
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     width: 51px;
     height: 51px;
-    margin: 1px;
-    background: #4E5A62;
-    opacity: 1;
+    margin: 0.5px;
+    background: #3A454D;
 }
 
 .team-icon-twitter
@@ -336,6 +333,28 @@
     height: 16px;
 }
 
+.team-icon-self-wrapper:hover
+{
+    background: #4E5A62;
+    cursor: pointer;
+}
+
+.team-card:hover .team-text-wrepper
+{
+    background: #3A454D;
+}
+
+.team-card:hover .team-text
+{
+    color: #FFFFFF;
+}
+
+.team-card:hover .team-icon-wrapper
+{
+    opacity: 1;
+    background: rgba(255, 255, 255, .5);
+    display: flex;
+}
 
 
 
