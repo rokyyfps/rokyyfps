@@ -238,12 +238,6 @@
     margin: 79px 0 0 0;
 }
 
-.content-block2
-{
-    width: 1144px;
-    margin: 0 auto;
-}
-
 .team-card
 {
     /* display: flex;
@@ -307,7 +301,6 @@
     height: 301px;
     opacity: 0;
     transition: 0.5s;
-    /* display: none; */
 }
 
 .team-icon-self-wrapper
@@ -360,7 +353,6 @@
 {
     opacity: 1;
     background: rgba(255, 255, 255, .5);
-    display: flex;
 }
 
 
@@ -373,12 +365,6 @@
     display: flex;
     flex-direction: column;
     background: #3A454D;
-}
-
-.content-block3 
-{
-    width: 1136px;
-    margin: 0 auto;
 }
 
 .fix
@@ -473,12 +459,6 @@
 
 
 
-.content-block4
-{
-    width: 1136px;
-    margin: 0 auto;
-}
-
 .services-header
 {
     border-left: 11px solid #E1E6EA;
@@ -540,12 +520,6 @@
 {
     background: #3A454D;
     
-}
-
-.content-block5
-{
-    width: 1136px;
-    margin: 0 auto;
 }
 
 .features-header
@@ -625,8 +599,6 @@
     margin: 0 0 39px 0;
     text-transform: uppercase;
 }
-
-
 
 .contact-massege
 {
@@ -712,7 +684,6 @@
     color: #fff;
     margin: 99px 0 0 0;
 }
-
 
 .footer-img-wrapper
 {
