@@ -1,0 +1,116 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+.ff-Montserrat
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ff-Open-Sans
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header
+{
+    width: 100%;
+}
+
+.header-content-wrapper
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 27px;
+    width: 85.9%;
+    margin: 0 auto;
+}
+
+.header-vertical-hr
+{
+    background: #E2E2E2;
+    Width: 1px;
+    Height: 40px;
+}
+
+.header-lang
+{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-lang .ru
+{
+    background: #4AD295;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 5px;
+    width: 35px;
+    height: 20px;
+}
+
+.header-price
+{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-links
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80px;
+}
+
+.header-links .fb
+{
+    width: 10px;
+    height: 20px;
+    fill: #000000;
+}
+
+.header-links .inst
+{
+    width: 20px;
+    height: 20px;
+    fill: #000000;
+}
+
+.header-links .yt
+{
+    width: 20px;
+    height: 20px;
+    fill: #000000;
+}
+
+.header-phone-wrepper
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-phone-numbers
+{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.hd-phone
+{
+    width: 39px;
+    height: 39px;
+}

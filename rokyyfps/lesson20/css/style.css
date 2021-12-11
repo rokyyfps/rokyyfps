@@ -9,6 +9,11 @@
     transition: 0.3s;
 }
 
+*::after, *::before
+{
+    box-sizing: border-box;
+}
+
 .underline
 {
     text-decoration: underline;
@@ -62,7 +67,11 @@
     transition: none;
 }
 
-
+.content-block
+{
+    width: 1136px;
+    margin: 0 auto;
+}
 
 
 
@@ -71,7 +80,7 @@
 .banner
 {
     color: #FFFFFF;
-    background-image: url(../img/pic@1X.png);
+    background-image: url(../img/about-img/pic@1X.png);
     width: 100%;
     height: 660px;
     display: flex;
@@ -112,11 +121,7 @@
     cursor: pointer;
 }
 
-.content-block1
-{
-    width: 1136px;
-    margin: 0 auto;
-}
+
 
 .about-content-row-1
 {
@@ -224,11 +229,13 @@
 
 
 
-
-
 .our-team-header
 {
     margin: 85px 0 62px 0;
+    border-left: 11px solid #E1E6EA;
+    padding: 0 0 0 14px;
+    font-size: 36px;
+    margin: 79px 0 0 0;
 }
 
 .content-block2
@@ -359,12 +366,14 @@
 
 
 
+
+
 .background-content3
 {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
     background: #3A454D;
 }
-
 
 .content-block3 
 {
@@ -372,14 +381,13 @@
     margin: 0 auto;
 }
 
-
 .fix
 {
     width: 100%;
     height: 80px;
 }
 
-.work
+.work-header
 {
     color: #FFFFFF;
     border-left: 11px solid #4E5A62;
@@ -388,44 +396,333 @@
     font-size: 36px;
 }
 
-.work-image-cont
+.work-img-cont
 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 29px;
-
 }
 
 .work-img-wrapper
-{
+{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    
 }
 
-.work-img-wrapper:hover::after
+.work-img 
 {
-    content: "PARTNERSHIP GUIDLINES";
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    left: 0%;
-    bottom: 4px;
-    width: 100%;
-    height: 61px;
-    background: #292F36;
-    opacity: 0.8;
-}   
+    width: 360px;
+}
 
-/* .work-img-wrapper:hover::before
+.work-plus-icon
 {
-    content: "+";
     position: absolute;
-    left: 49%;
-    bottom: 53%;
-} */
+    top: 94px;
+    text-transform: uppercase;
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.work-hover-text
+{
+    position: absolute;
+    width: max-content;
+    bottom: 0;
+    left: 0;
+    font-size: 18px;
+    padding: 25px 125.5px 22px 21px;
+    background: #292F36;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.work-img-wrapper:hover .work-plus-icon
+{
+    opacity: 1;
+}
+
+.work-img-wrapper:hover .work-hover-text
+{
+    opacity: 1;
+}
 
 .button2
 {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 14px;
+    display: inline-block;
+    margin: 61px auto;
+    padding: 16px 30px 16px  21px;
+    text-transform: uppercase;
+}
+
+.button2:hover
+{
+    background: #fff;
+    color: #292F36;
+}
+
+
+
+
+
+.content-block4
+{
+    width: 1136px;
+    margin: 0 auto;
+}
+
+.services-header
+{
+    border-left: 11px solid #E1E6EA;
+    padding: 0 0 0 14px;
+    font-size: 36px;
+    margin: 79px 0 0 0;
+    text-transform: uppercase;
+}
+
+.services-item
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 254px;
+}
+
+.services-content
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 37px;
+    margin: 93px 0 164px 0;
+}
+
+
+.services-item h3
+{
+    color: #292F36;
+    text-transform: uppercase;
+    margin: 35px 0 28px 0;
+}
+
+.services-item p
+{
+    color: #8D8F92;
+}
+
+.services-item .services-img-cogs, .services-img-pencil, .services-img-clock
+{
+    width: 48px;
+    height: 48px;
+}
+
+.services-img-phone
+{
+    width: 30px;
+    height: 48px;
+}
+
+
+
+
+
+
+.background-content5
+{
+    background: #3A454D;
     
+}
+
+.content-block5
+{
+    width: 1136px;
+    margin: 0 auto;
+}
+
+.features-header
+{
+    border-left: 11px solid #4E5A62;
+    color: #fff;
+    padding: 0 0 0 14px;
+    font-size: 36px;
+    margin: 0 0 59px 0;
+    text-transform: uppercase;
+}
+
+.features-card-block
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 29px;
+    padding: 0 0 120px 0;
+}
+
+.features-card
+{
+    display: flex;
+    flex-direction: column;
+    width: 361px;
+}
+
+.features-card-header
+{
+    margin: 54px 0 0 0;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.features-card-header
+{
+    color: #DCDFE1;
+}
+
+.features-text
+{
+    color: #DCDFE1;
+}
+
+
+
+
+
+
+.contact-content-block
+{
+    width: 1136px;
+    margin: 0 auto;
+    display: flex;
+    gap: 49px;
+    position: relative;
+}
+
+.contact-header
+{
+    border-left: 11px solid #E1E6EA;
+    padding: 0 0 0 14px;
+    font-size: 36px;
+    margin: 70px 0 60px 0;
+    text-transform: uppercase;
+}
+
+.contact-content
+{
+    width: 47.09%;
+    margin: 60px 0 0 0;
+}
+
+.contact-content-header
+{
+    font-size: 20px;
+    margin: 0 0 39px 0;
+    text-transform: uppercase;
+}
+
+
+
+.contact-massege
+{
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+}
+
+.contact-massege-wrapper
+{
+    padding: 30px;
+    background: #fff;
+}
+
+.contact-user-data-row-1
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 14px;
+}
+
+.contact-user-data-row-2
+{
+    margin: 30px 0 0 0;
+}
+
+.contact-label
+{
+    font-size: 14px;
+    color: #8D8F92;
+    margin: 0 0 0 7px;
+    display: block;
+    text-transform: uppercase;
+}
+
+.contact-row-1-input
+{
+    width: 241px;
+    height: 45px;
+    border: none;
+    border-radius: 3px;
+    background: #EAEEF1;
+}
+
+.contact-row-2-input
+{
+    width: 100%;
+    height: 160px;
+    border: none;
+    border-radius: 3px;
+    background: #EAEEF1;
+}
+
+.contact-button-wrapper
+{
+    margin: 47px 0 0 0;
+}
+
+.contact-button
+{
+    border-radius: 10px;
+    color: #fff;
+    background: #23B7A4;
+    padding: 16px 25px 15px 32px;
+    text-transform: uppercase;
+    
+}
+
+.contact-button:hover
+{
+    filter: brightness(110%);
+}
+
+.footer
+{
+    width: 100%;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+    background: #3A454D;
+    color: #fff;
+    margin: 99px 0 0 0;
+}
+
+
+.footer-img-wrapper
+{
+    display: flex;
+    justify-content: center;
+    width: 155px;
+    gap: 10px;
+}
+
+.footer-icon
+{
+    width: 18px;
 }
