@@ -554,3 +554,101 @@
 }
 
 
+
+
+
+
+.tours-header-wrapper
+{
+    width: 1136px;
+    margin: 0 auto;
+    padding: 120px 0 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tours-content-wrapper
+{
+    width: 1136px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.tours-header
+{
+    font-weight: normal;
+    font-size: 56px;
+}
+
+.tours-hr
+{
+    height: 1px;
+    width: 300px;
+    background: #C4C4C4;
+}
+
+.tours-card
+{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    background: #F8F8F8;
+}
+
+.tours-img
+{
+    height: 280px;
+}
+
+.tours-card-content-wrapper
+{
+    padding: 20px;
+}
+
+.tours-card-header
+{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0 0 25px 0;
+}
+
+.tours-card-info
+{
+    margin: 0 0 20px 0;
+    line-height: 25px;
+    color: #848484;
+}
+
+.tours-card-hr
+{
+    width: 100%;
+    height: 1px;
+    background: #E8E8E8;
+    margin: 0 0 30px 0;
+}
+
+.tours-btm-card-wrapper
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tours-price-wrapper
+{
+    color: #DD4053;
+}
+
+.tours-current-price
+{
+    font-size: 26px;
+}
+
+.underprice-text
+{
+    color: #C9C9C9;
+}
+
