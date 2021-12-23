@@ -1,0 +1,19 @@
+.header {
+    text-align: right;
+    margin-right: 60%;
+    border: none;
+}
+
+span {
+    color: red;
+}
+
+.common {
+    border-left: 3px solid blue;
+    margin: 20px;
+    padding: 20px;
+}
+
+.common:hover {
+    border-left: 3px solid red;
+}
