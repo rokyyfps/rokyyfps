@@ -532,7 +532,6 @@
     left: 0;
     top: 22px;
     position: absolute;
-    /*  */
 }
 
 .stars
@@ -572,7 +571,7 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
-    padding: 20px 0 20px 0;
+    padding: 80px 0 20px 0;
 }
 
 .tours-header
@@ -589,7 +588,7 @@
     height: 1px;
     position: absolute;
     z-index: -999;
-    background: #000;
+    background: #C4C4C4;
 }
 
 .tours-header-button-wrapper
@@ -744,10 +743,16 @@
 
 
 
+.news 
+{
+    background: #F8F8F8;
+}
+
 .news-content-wrapper
 {
     width: 1136px;
     margin: 0 auto;
+    padding: 100px 0 100px 0;
 }
 
 .news-header-wrapper
@@ -757,14 +762,16 @@
     justify-content: space-between;
     position: relative;
     height: max-content;
+    padding: 0 0 50px 0;
 }
 
 .news-header
 {
     font-size: 56px;
     font-weight: normal;
-    background: #fff;
+    background: #F8F8F8;
     padding: 0 25px 0 0;
+    z-index: 9999;
 }
 
 .news-hr
@@ -773,13 +780,14 @@
     height: 1px;
     background: #C4C4C4;
     position: absolute;
-    z-index: -999;
+    z-index: 999;
 }
 
 .news-button-wrapper
 {
-    background: #fff;
+    background: #F8F8F8;
     padding: 0 0 0 25px;
+    z-index: 9999;
 }
 
 .news-button
@@ -796,3 +804,54 @@
     border-color: transparent;
 }
 
+.news-card-wrapper
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 50px 0;
+}
+
+.news-card
+{
+    width: 24%;
+}
+
+.news-card-img
+{
+    width: 100%;
+}
+
+.news-card-ico
+{
+    width: 25px;
+    height: 25px;
+}
+
+.news-date
+{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    text-transform: uppercase;
+    color: #BBBBBB;
+    margin: 20px 0 20px 0;
+}
+
+.news-card-header
+{
+    font-size: 26px;
+    margin: 0 0 30px 0;
+}
+
+.news-details
+{
+    color: #232323;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid #232323;
+}
+
+.news-card:hover .news-details
+{
+    color: #DD4053;
+    border-color: #DD4053;
+}
