@@ -1105,7 +1105,6 @@
 {
     display: flex;
     justify-content: space-between;
-    
 }
 
 .travel-input-cont
@@ -1118,8 +1117,14 @@
 {
     height: 30px;
     width: 400px;
-    border-color: none;
-    border-radius: 5px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.travel-input-text:checked
+{
+    border: none;
 }
 
 .travel-input-img
@@ -1155,10 +1160,18 @@
 .travel-input:checked .tavel-check-wrapper
 {
     background: #fff;
-    height: 1000000px;
+    transition: .3s linear;
 }
 
-
+.travel-submit
+{
+    width: 200px;
+    height: 40px;
+    border: none;
+    color: #DD4053;
+    font-weight: bold;
+    font-size: 16px;
+}
 
 
 
