@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="../lesson23/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -910,16 +910,26 @@
             </div>
             <form action="" class="travel-form ff-Montserrat">
                 <input type="text" class="travel-input-text">
-                
-
-
                 <div class="travel-input-cont">
-                    <input type="radio" id="travel-input" class="travel-input" style="display: none;">
-                    <label for="travel-input">
-                        Я турист 
+                    <input type="radio" id="travel-input" name="travel-radio-input" class="travel-input" style="display: none;">
+                    <label for="travel-input" class="travel-input-label">
+                        <div class="tavel-check-wrapper">
+                            <svg class="tavel-check">
+                                <use xlink:href="#check"></use>
+                            </svg>
+                        </div>
+                        <p>Я турист</p>
+                    </label>
+                    <input type="radio" id="travel-input1" name="travel-radio-input" class="travel-input" style="display: none;">
+                    <label for="travel-input1" class="travel-input-label">
+                        <div class="tavel-check-wrapper">
+                            <svg class="tavel-check">
+                                <use xlink:href="#check"></use>
+                            </svg>
+                        </div>
+                        <p>Я турагент</p>
                     </label>
                 </div>  
-                
                 <input type="submit">
             </form>
         </div>  
