@@ -1065,19 +1065,19 @@
 {
     width: 1136px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 70px 0;
     position: relative;
+    z-index: 1;
 }
 
 .travel-img
 {
-    display: none;
-    top: 0;
-    right: 0;
+    top: -100px;
+    right: -120px;
     position: absolute;
-    z-index: 0;
-    width: 400px;
-    height: 311px;
+    z-index: -1;
+    width: 490px;
+    height: 401px;
     opacity: .3;
 }
 
@@ -1140,13 +1140,14 @@
     border: 1px solid #fff;
     border-radius: 50px;
     margin: 0 10px 0 0 ;
+    transition: .2s linear;
 }
 
 .tavel-check
 {
     width: 18px;
     height: 18px;
-    margin: 7px;
+    margin: 5px;
     fill: #DD4053;
 }
 
@@ -1157,10 +1158,9 @@
     cursor: pointer;
 }
 
-.travel-input:checked .tavel-check-wrapper
+.travel-input:checked + .travel-input-label .tavel-check-wrapper
 {
     background: #fff;
-    transition: .3s linear;
 }
 
 .travel-submit
@@ -1171,11 +1171,107 @@
     color: #DD4053;
     font-weight: bold;
     font-size: 16px;
+    cursor: pointer;
 }
 
 
 
 
+
+
+.why 
+{
+    background: #F8F8F8;
+    position: relative;
+}
+
+.why-content-wrapper
+{
+    width: 1136px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.why-header
+{
+    font-size: 56px;
+    color: #232323;
+    padding: 100px 0 0 0;
+}
+
+.why-img1
+{
+    position: absolute;
+    top: 45px;
+    left: 17%;
+    width: 1300px;    
+    height: 630px;
+    margin: 0 auto;
+    z-index: 1;
+}   
+
+.why-card-group-wrapper
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 50px 0 0 0;
+}
+
+.why-card
+{
+    height: 200px;
+    background: #fff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+    border-left: 6px solid transparent;
+}
+
+.why-card-content-wrapper
+{
+    display: flex;
+    justify-content: space-between;
+    color: #656565;
+    padding: 30px 30px;
+}
+
+.why-card-text
+{
+    display: inline-block;
+    line-height: 26px;
+}
+
+.why-img2-wrapper
+{
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    margin: 0 0 0 10px;
+    padding: 7px;
+    border: 1.7px solid #c6c6c6;
+}
+
+.why-img2
+{
+    width: 20px;
+    height: 20px;
+    fill: #C6C6C6;
+}
+
+.why-radio:checked + .why-card .why-card-content-wrapper .why-img2-wrapper
+{
+    background: #DD4053;
+}
+
+.why-radio:checked + .why-card .why-card-content-wrapper .why-img2-wrapper .why-img2
+{
+    fill: #fff;
+}
+
+.why-radio:checked + .why-card
+{
+    border-left: 6px solid #DD4053;
+}
 
 
 
