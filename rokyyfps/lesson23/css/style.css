@@ -1183,6 +1183,7 @@
 {
     background: #F8F8F8;
     position: relative;
+    padding: 0 0 90px 0;
 }
 
 .why-content-wrapper
@@ -1272,6 +1273,69 @@
 {
     border-left: 6px solid #DD4053;
 }
+
+
+
+
+
+
+.agent
+{
+    background-image: url(../img/agent-img/Rovinj-15\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.agent-content-wrapper
+{
+    width: 1136px;
+    margin: 0 auto;
+    padding: 130px 0;
+}
+
+.agent-header
+{
+    position: relative;
+    font-size: 56px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 65px;
+    letter-spacing: 1.7px;
+    margin: 0 0 30px 0;
+}
+
+.agent-text
+{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 40px 0;
+}
+
+.agent-button
+{
+    display: inline-block;
+    color: #969696;
+    padding: 17px 35px ;
+    background: #fff;
+    border-radius: 2px;
+}
+
+.agent-img
+{
+    width: 170px;
+    position: absolute;
+    top: -30px;
+    right: 200px;
+}
+
+
+
+
+
+
+
+
 
 
 
