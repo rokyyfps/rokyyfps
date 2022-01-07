@@ -24,6 +24,11 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.ff-Dancing-Script
+{
+    font-family: 'Dancing Script', cursive;
+}
+
 .header
 {
     width: 100%;
@@ -1334,8 +1339,155 @@
 
 
 
+.relax
+{
+    position: relative;
+}
+
+.relax-montenegro
+{
+    position: absolute;
+    top: -12px;
+    right: 13%;
+    display: flex;
+    align-items: center;
+}
+
+.relax-montenegro-text
+{
+    position: relative;
+    top: 10px;
+    right: 10px;
+    color: #BBBBBB;
+    font-size: 31px;
+}
+
+.relax-italy
+{
+    position: absolute;
+    left: 0;
+    top: 190px;
+}
+
+.relax-italy-text
+{
+    position: relative;
+    left: 80px;
+    color: #BBBBBB;
+    font-size: 31px;
+}
+
+.relax-croatia
+{
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+}
+
+.relax-croatia-text
+{
+    position: relative;
+    right: 20px;
+    bottom: 8px;
+    color: #BBBBBB;
+    font-size: 31px;
+}
 
 
+
+
+
+
+
+.relax-content-wrapper
+{
+    width: 1136px;
+    margin: 0 auto;
+    padding: 90px 0;
+}
+
+.relax-header-wrapper
+{
+    line-height: 60px;
+}
+
+.relax-header
+{
+    position: relative;
+    font-size: 45px;
+    text-transform: uppercase;
+    margin: 0 0 100px 0;
+}
+
+.ralax-piece1-header
+{
+    font-size: 32px;
+    color: #DD4053;
+}
+
+.ralax-piece2-header
+{
+    position: absolute;
+    text-transform: none;
+    right: 0;
+    bottom: 10px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #DD4053;
+}
+
+.relax-card-group
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.relax-card
+{
+    background: #F8F8F8;
+    padding: 20px;
+}
+
+.relax-card-content-wrapper
+{
+    padding: 80px 0 30px 0;
+    position: relative;
+}
+
+.relax-card-header
+{
+    font-weight: 600;
+    text-align: end;
+    margin: 0 0 30px 0;
+}
+
+.relax-card-img
+{
+    width: 170px;
+    top: -60px;
+    position: absolute;
+}
+
+.relax-card-details
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #969696;
+    background: #fff;
+    border: 1px solid #969696;
+    border-radius: 2px;
+    width: 100%;
+    height: 44px;
+    transition: .2s linear;
+}
+
+.relax-card:hover .relax-card-details
+{
+    background: #969696;
+    color: #fff;
+}
 
 
 
