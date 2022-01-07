@@ -397,6 +397,7 @@
     padding: 12px;
     border: 1.2px dashed #969696;
     border-radius: 100px;
+    fill: #696969;
 }
 
 
@@ -1393,12 +1394,6 @@
     font-size: 31px;
 }
 
-
-
-
-
-
-
 .relax-content-wrapper
 {
     width: 1136px;
@@ -1488,6 +1483,86 @@
     background: #969696;
     color: #fff;
 }
+
+
+
+
+
+.what-header
+{
+    background-image: url(../img/what-img/GettyImages-685890576-2200x880\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px 0 350px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.what-pt1-header
+{
+    position: absolute;
+    font-size: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    opacity: .2;
+    user-select: none;
+}
+
+.what-pt2-header
+{
+    position: absolute;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    user-select: none;
+}
+
+
+
+
+.what-content-wrapper
+{
+    width: 1136px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    background: #fff;
+}
+
+.what-content-row
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.what-content-item
+{
+    display: flex;
+    gap: 20px;
+}
+
+.what-img-wrapper
+{
+    padding: 10px;
+    stroke-dasharray: 6 4;
+    
+    border: 1.2px dashed #969696;
+    border-radius: 100%;
+}
+
+.what-img
+{
+    width: 60px;
+    height: 60px;
+    fill: #969696;
+}
+
 
 
 
