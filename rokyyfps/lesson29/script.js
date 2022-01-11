@@ -22,22 +22,36 @@
 // y = Number(y)
 // console.log(x + y)
 
-let req = prompt('Впиши 1 либо 2!')
-const answer1 = ('Ты выбрал 1, я угадал')
-const answer2 = ('Ты выбрал 2, я угадал')
-const error = ('1000-7?')
+// let req = prompt('Впиши 1 либо 2!')
+// const answer1 = ('Ты выбрал 1, я угадал')
+// const answer2 = ('Ты выбрал 2, я угадал')
+// const error = ('1000-7?')
 
-if (req == (1)){
-    alert(answer1)
+// if (req == (1)){
+//     alert(answer1)
+// }
+
+// else if (req == (2)){
+//     alert(answer2)
+// }
+
+// else{
+//     alert(error)
+// }
+
+
+
+let num = prompt('Дай читабельный размер заголовку ')
+
+
+let header =  document.querySelector('.header')
+
+function changeFontH1(){
+    header.style.fontSize = num+'px'
+    console.log(num)
 }
 
-else if (req == (2)){
-    alert(answer2)
-}
 
-else{
-    alert(error)
-}
 
 
 
