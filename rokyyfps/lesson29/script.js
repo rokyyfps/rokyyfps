@@ -47,7 +47,7 @@ console.log(num)
 
 let header =  document.querySelector('.header')
 
-if (num < 300 & num > 30){
+if (num <= 400 & num >= 30){
     alert('чел харош, тыкай кнопку')
     function changeFontH1() {
         header.style.fontSize = num+'px'
