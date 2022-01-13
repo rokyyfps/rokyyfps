@@ -53,7 +53,13 @@ if (num <= 400 & num >= 30){
         header.style.fontSize = num+'px'
         console.log(num)
     }
-} else {
+} 
+
+else if (num = String){
+    alert('напиши цыфру')
+}
+
+else {
     alert('плохой выбор')
 }
 
