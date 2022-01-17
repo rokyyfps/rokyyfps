@@ -42,14 +42,32 @@
 
 
 let num = prompt('Дай читабельный размер заголовку ')
-
+num = Number(num)
+console.log(num)
 
 let header =  document.querySelector('.header')
 
-function changeFontH1(){
-    header.style.fontSize = num+'px'
-    console.log(num)
+if (num <= 400 & num >= 30){
+    alert('чел харош, тыкай кнопку')
+    function changeFontH1() {
+        header.style.fontSize = num+'px'
+        console.log(num)
+    }
+} 
+
+else if (num = String){
+    alert('напиши цыфру')
 }
+
+else {
+    alert('плохой выбор')
+}
+
+
+
+
+
+
 
 
 
