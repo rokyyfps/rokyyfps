@@ -10,8 +10,6 @@ let addNumber = () => {
 let veiwNumber = () => {    
     let wrapper = document.querySelector('.wrapper')
     wrapper.innerHTML = ''
-
-    let li = ''
     console.log(userArr);
     let summ = ''
     let res = 0
@@ -23,9 +21,18 @@ let veiwNumber = () => {
             summ += '='
         }
         res += +userArr[i]
-        // wrapper.append(userArr)
-        // console.log(userArr[i])
     }
     console.log(summ, res)
-    // wrapper.insertAdjacentHTML('afterbegin', i)
+    wrapper.insertAdjacentHTML('afterbegin', res)
+    wrapper.insertAdjacentHTML('afterbegin', summ)
 }
+
+
+let clear = () => {
+    let wrapper = document.querySelector('.wrapper')
+    wrapper.innerHTML = ''
+    res = ''
+}
+
+
+
