@@ -2,12 +2,11 @@ let userArr = []
 
 let addNumber = () => {    
     let number = prompt('ur number')
+    if (isNaN(number)) return
     userArr.push(number)
-
-    if (number === null & number === NaN) return
 }
 
-let veiwNumber = () => {    
+let veiwNumber = () => {
     let wrapper = document.querySelector('.wrapper')
     wrapper.innerHTML = ''
     console.log(userArr);
@@ -27,11 +26,12 @@ let veiwNumber = () => {
     wrapper.insertAdjacentHTML('afterbegin', summ)
 }
 
-
-let clear = () => {
+let clear1 = () => {
     let wrapper = document.querySelector('.wrapper')
     wrapper.innerHTML = ''
-    res = ''
+    userArr = 0
+    summ = 0
+    res = 0
 }
 
 
